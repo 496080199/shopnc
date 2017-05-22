@@ -22,9 +22,6 @@ class activityModel{
 	public function hello(){
 		echo "这是hello！";
 	}
-	public function hello(){
-		echo "这是gaoxungang！";
-	}
 	public function getList($condition,$page=''){
 		$param	= array();
 		$param['table']	= 'activity';
