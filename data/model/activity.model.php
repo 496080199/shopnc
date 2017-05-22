@@ -16,6 +16,9 @@ class activityModel{
 	 * @param obj $page 分页对象
 	 * @return array 二维数组
 	 */
+	public function test(){
+		echo "这是测试！";
+	}
 	public function getList($condition,$page=''){
 		$param	= array();
 		$param['table']	= 'activity';
